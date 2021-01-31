@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number System Converter</title>
+
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+  <main>
+    <h1>Number System Converter</h1>
+    <div class="input">
+      <div class="value-section">
+        <label for="value">Convert:</label>
+        <input type="text" id="value" name="value" required placeholder="Enter Number">
+        <h2>From:</h2>
+        <select name="numbersName" id="selector" width="100">
+          <option value="decimal">Decimal</o>
+          <option value="binary">Binary</option>
+          <option value="octal">Octal</option>
+          <option value="hex">Hex</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <button type="button" id="octal">to Octal</button>
+        <button type="button" id="binary">to Binary</button>
+        <button type="button" id="decimal">to Decimal</button>
+        <button type="button" id="hex">to Hexadecimal</button>
+        <button type="button" id="clear">Clear</button>
+      </div>
+    </div>
+    <div class="display">
+      <label for="result" id="dispResult">Result:</label>
+      <input type="text" id="result" name="result" readonly>
+    </div>
+  </main>
+
+  <!-- <footer>
+    <span id="sspan">Coded by <a href="https://github.com/Abdulraheembashir043/Number_System_Converter"><strong>BashDev</strong></a></span>
+  </footer> -->
+
+  <script src="./js/app.js"></script>
+</body>
+</html>

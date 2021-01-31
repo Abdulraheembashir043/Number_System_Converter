@@ -1,0 +1,155 @@
+// **********Default**********
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header, nav, main, article, section, aside, footer {
+  display: block;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  
+  border: 2px solid rgba(41, 32, 5, 0.178);
+  // background: rgba(41, 32, 5, 0.76);
+  border-radius: 10px;
+  width: 350px;
+  margin: 100px auto 0;
+  text-align: center;
+  padding: 10px 0;
+
+  h1 {
+    color: rgba(13, 203, 209, 0.979);
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+
+  .input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-color: rgba(0, 0, 0, 0.322);
+    border-style: solid none;
+    border-width: 1px;
+  
+    .value-section {
+      margin-bottom: 10px;
+
+      h2 {
+        margin-top: 10px;
+        color: rgba(13, 203, 209, 0.979);
+        font-size: 1.2em;
+
+      }
+
+      label {
+        margin-top: 10px;
+        color: rgba(13, 203, 209, 0.979);
+        display: block;
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      
+      input {
+        text-align: center;
+        width: 150px;
+        padding: 10px;
+        outline: 0;
+        border: 2px solid rgba(0, 0, 0, 0.13);
+        font-size: 1em;
+        font-weight: bold;
+        border-radius: 5px;
+
+        &:focus {
+         
+          border: 2px solid rgb(13, 221, 13);
+        }
+      }
+
+      #selector {
+        color: rgba(13, 203, 209, 0.979);
+        border: 2px solid rgba(13, 221, 13, 0.219);
+        font-size: 1.3em;
+        outline: none;
+        padding: 5px;
+        cursor: pointer;
+      }
+    }
+
+    .buttons {
+      border-left: 1px solid rgba(0, 0, 0, 0.322);
+      
+      button {
+        color: rgba(13, 203, 209, 0.979);
+        background: none;
+        cursor: pointer;
+        outline: none;
+        border: 1px solid rgba(0, 0, 0, 0.39);
+        border-radius: 5px;
+        display: block;
+        padding: 7px;
+        font-weight: bold;
+        font-size: 1em;
+        margin: 10px auto;
+      }
+    }
+  }
+
+  .display {
+    margin-top: 10px;
+
+    label {
+      color: rgba(13, 203, 209, 0.979);
+      font-weight: bold;
+      font-size: 1.3em;
+    }
+
+    input {
+      width: 150px;
+      font-size: 1em;
+      font-weight: bold;
+      text-align: center;
+      padding: 10px;
+      outline: none;
+      border: 2px solid rgba(13, 221, 13, 0.507);
+      border-radius: 5px;
+    }
+  }
+}
+
+footer {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 50%;
+  left: 25%;
+  font-size: 1em;
+  color: rgba(41, 32, 5, 0.76);
+
+a {
+  color: hsl(171, 66%, 44%);
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+}
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    width: 400px;
+  }
+
+  footer {
+    font-size: 1.3em;
+
+  }
+}
