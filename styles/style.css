@@ -18,13 +18,13 @@ main {
   border: 2px solid rgba(41, 32, 5, 0.178);
   border-radius: 10px;
   width: 350px;
-  margin: 100px auto 0;
+  margin: 50px auto 0;
   text-align: center;
   padding: 10px 0;
 }
 
 main h1 {
-  color: rgba(13, 203, 209, 0.979);
+  color: rgba(14, 145, 150, 0.979);
   font-size: 1.3em;
   margin-bottom: 10px;
 }
@@ -45,13 +45,11 @@ main .input .value-section {
 
 main .input .value-section h2 {
   margin-top: 10px;
-  color: rgba(13, 203, 209, 0.979);
   font-size: 1.2em;
 }
 
 main .input .value-section label {
   margin-top: 10px;
-  color: rgba(13, 203, 209, 0.979);
   display: block;
   font-weight: bold;
   font-size: 1.2em;
@@ -73,7 +71,6 @@ main .input .value-section input:focus {
 }
 
 main .input .value-section #selector {
-  color: rgba(13, 203, 209, 0.979);
   border: 2px solid rgba(13, 221, 13, 0.219);
   font-size: 1.3em;
   outline: none;
@@ -86,7 +83,6 @@ main .input .buttons {
 }
 
 main .input .buttons button {
-  color: rgba(13, 203, 209, 0.979);
   background: none;
   cursor: pointer;
   outline: none;
@@ -104,9 +100,10 @@ main .display {
 }
 
 main .display label {
-  color: rgba(13, 203, 209, 0.979);
+  color: rgba(14, 145, 150, 0.979);
   font-weight: bold;
   font-size: 1.3em;
+  display: block;
 }
 
 main .display input {
@@ -141,7 +138,11 @@ footer a:hover {
 
 @media screen and (min-width: 768px) {
   main {
+    margin: 100px auto 0;
     width: 400px;
+  }
+  main .display label {
+    display: inline;
   }
   footer {
     font-size: 1.3em;
