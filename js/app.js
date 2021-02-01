@@ -68,5 +68,6 @@ clear.addEventListener('click', () => {
   input.value = '';
   result.value = '';
   select.selectedIndex = '0';
+  dispResult.textContent = 'Result: ';
   input.focus();
 })
