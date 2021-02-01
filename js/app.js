@@ -24,7 +24,7 @@ function toOctal(value, name) {
 
 function toHex(value, name) {
   let conv = Number(value).toString(16);
-  display(conv, name);
+  display(conv, `${name}adecimal`);
 }
 
 function display(finalResult, name) {
