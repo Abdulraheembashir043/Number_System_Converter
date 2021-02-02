@@ -122,11 +122,11 @@ footer {
   bottom: 0;
   width: 50%;
   left: 25%;
-  font-size: 1em;
+  font-size: .9em;
   color: rgba(41, 32, 5, 0.76);
 
   a {
-    color: hsl(171, 66%, 44%);
+    color: rgba(14, 145, 150, 0.979);
     text-decoration: underline;
 
     &:hover {
@@ -149,6 +149,6 @@ footer {
   }
 
   footer {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }

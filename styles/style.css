@@ -123,12 +123,12 @@ footer {
   bottom: 0;
   width: 50%;
   left: 25%;
-  font-size: 1em;
+  font-size: .9em;
   color: rgba(41, 32, 5, 0.76);
 }
 
 footer a {
-  color: #26baa4;
+  color: rgba(14, 145, 150, 0.979);
   text-decoration: underline;
 }
 
@@ -145,7 +145,7 @@ footer a:hover {
     display: inline;
   }
   footer {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
 /*# sourceMappingURL=style.css.map */
