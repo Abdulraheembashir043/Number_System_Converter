@@ -62,7 +62,7 @@ main {
         border-radius: 5px;
 
         &:focus {
-          border: 2px solid rgb(13, 221, 13);
+          border: 2px solid rgba(13, 221, 13, 0.507);;
         }
       }
 
@@ -118,7 +118,7 @@ main {
 
 footer {
   text-align: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 50%;
   left: 25%;
